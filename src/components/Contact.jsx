@@ -1,14 +1,47 @@
-import React from "react";
+import React, { useState } from "react";
+import emailjs from "emailjs-com";
 
 const Contact = () => {
   const contact_info = [
-    { logo: "mail", text: "codeaprogram@gmail.com" },
-    { logo: "logo-whatsapp", text: "123 456 780" },
+    { logo: "mail", text: "amirfaysal0471@gmail.com" },
+    { logo: "logo-whatsapp", text: "+8801875-071998" },
     {
       logo: "location",
-      text: "demo location",
+      text: "Boikali,Khulna",
     },
   ];
+
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_m9zsq3f",
+        "template_k6s54as",
+        e.target,
+        "azgz2Tu2QvnIFBABJgQlW"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          alert("Message sent successfully!");
+        },
+        (error) => {
+          console.log(error.text);
+          alert("Message failed to send.");
+        }
+      );
+
+    // Clear form inputs after submission
+    setName("");
+    setEmail("");
+    setMessage("");
+  };
+
   return (
     <section id="contact" className="py-10 px-3 text-white">
       <div className="text-center mt-8">
@@ -21,11 +54,34 @@ const Contact = () => {
           className="mt-16 flex md:flex-row flex-col
          gap-6 max-w-5xl bg-gray-800 md:p-6 p-2 rounded-lg mx-auto"
         >
-          <form className="flex flex-col flex-1 gap-5">
-            <input type="text" placeholder="Your Name" />
-            <input type="Email" placeholder="Your Email Address" />
-            <textarea placeholder="Your Message" rows={10}></textarea>
-            <button className="btn-primary w-fit">Send Message</button>
+          <form
+            className="flex flex-col flex-1 gap-5"
+            onSubmit={handleSubmit}
+          >
+            <input
+              type="text"
+              placeholder="Your Name"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+              name="name"
+            />
+            <input
+              type="Email"
+              placeholder="Your Email Address"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              name="email"
+            />
+            <textarea
+              placeholder="Your Message"
+              rows={10}
+              value={message}
+              onChange={(e) => setMessage(e.target.value)}
+              name="message"
+            ></textarea>
+            <button className="btn-primary w-fit" type="submit">
+              Send Message
+            </button>
           </form>
           <div className="flex flex-col  gap-7 ">
             {contact_info.map((contact, i) => (

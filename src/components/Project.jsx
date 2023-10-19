@@ -15,37 +15,37 @@ const Project = () => {
     {
       img: project1,
       name: "Movie App",
-      github_link: "https://github.com/Sridhar-C-25",
+      github_link: "https://github.com/amirfaysal0471?tab=repositories",
       live_link: "https://myreactflix.netlify.app",
     },
     {
       img: project2,
       name: "Job search Web App",
-      github_link: "https://github.com/Sridhar-C-25/jobsearchapp",
+      github_link: "https://github.com/amirfaysal0471?tab=repositories",
       live_link: "https://myjobsearch.netlify.app",
     },
     {
       img: project3,
       name: "Highking",
-      github_link: "https://github.com/Sridhar-C-25/highking",
+      github_link: "https://github.com/amirfaysal0471?tab=repositories",
       live_link: "https://highking01.netlify.app",
     },
     {
       img: project4,
       name: "React Nav",
       github_link:
-        "https://github.com/Sridhar-C-25/reacttailwindnavbar-with-dropdown",
+        "https://github.com/amirfaysal0471?tab=repositories",
       live_link: "https://reacttailwindnavbar.netlify.app",
     },
     {
       img: project5,
       name: "Vue Country",
-      github_link: "https://github.com/Sridhar-C-25",
-      live_link: "https://vuecountry05.netlify.app",
+      github_link: "https://github.com/amirfaysal0471?tab=repositories",
+      live_link: "https://github.com/amirfaysal0471?tab=repositories",
     },
   ];
   return (
-    <section id="projects" className="py-10 text-white">
+    <section id="projects" className="py-10 text-white pt-24">
       <div className="text-center">
         <h3 className="text-4xl font-semibold">
           My <span className="text-cyan-600">Projects</span>

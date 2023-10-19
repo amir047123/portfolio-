@@ -15,12 +15,10 @@ const Hireme = () => {
             Do you want any work from me?
           </h2>
           <p className="lg:text-left text-justify max-w-lg text-sm mt-4 text-gray-200 leading-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dicta
-            soluta quos tempore eos accusamus cupiditate, amet in similique
-            sapiente obcaecati odio deleniti architecto corporis ratione.
-            Consequatur a quidem maiores!
-          </p>
-          <button className="btn-primary mt-10">Say Hello</button>
+
+          Experienced Developer & Product Manager with a strong grasp of the software development life cycle. Skilled in MongoDB, Express.js, React, Node.js, and product management, delivering high-quality products from ideation to launch. Dedicated, hardworking, and passionate about exceeding expectations.          </p>
+          <button className="btn-primary mt-10" onClick={() => window.open("https://wa.me/8801960064557", "_blank")}>Say Hello</button>
+
         </div>
         <img
           src={hireMe}

@@ -8,19 +8,37 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Bot from "./components/Bot";
+import Gallery from "./components/Gallery";
+import MissionVision from "./components/MissionVision";
+import Home from "./Home";
+import { Route, Routes } from "react-router-dom";
+import PublicRoutes from "../Routers/PublicRoutes";
+import { Component } from "react";
+import LandingPage from "./components/LandingPage/LandingPage";
+import { BrowserRouter  } from "react-router-dom";
 
 const App = () => {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar />
       <Bot />
       <Hero />
       <About />
       <Skills />
       <Hireme />
       <Project />
+      <Gallery></Gallery>
+      <MissionVision></MissionVision>
       <Contact />
-      <Footer />
+      <Footer /> */}
+      <Routes>
+      <Route path="/" element={<Home />}>
+          <Route index element={<LandingPage />}></Route>
+          {PublicRoutes.map(({ path, Component }, index) => (
+            <Route key={index} path={path} element={<Component />} />
+          ))}
+        </Route>
+      </Routes>
     </div>
   );
 };

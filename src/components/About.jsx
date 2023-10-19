@@ -3,12 +3,12 @@ import aboutImg from "../assets/images/about.png";
 const About = () => {
   const info = [
     { text: "Years experience", count: "04" },
-    { text: "Completed Projects", count: "24" },
-    { text: "Companies Work", count: "06" },
+    { text: "Completed Projects", count: "30" },
+    { text: "Companies Work", count: "02" },
   ];
   return (
-    <section id="about" className="py-10 text-white">
-      <div className="text-center mt-8">
+    <section id="about" className="  text-white">
+      <div className="text-center ">
         <h3 className="text-4xl font-semibold">
           About <span className="text-cyan-600">Me</span>
         </h3>
@@ -17,10 +17,8 @@ const About = () => {
           <div className="p-2">
             <div className="text-gray-300 my-3">
               <p className="text-justify leading-7 w-11/12 mx-auto">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-                eos, quam vel quisquam, explicabo sit labore dignissimos optio
-                ratione quibusdam doloribus pariatur consequuntur sint.
-                Reprehenderit cupiditate possimus facere quasi voluptatem?
+              I am a hardworking and passionate learner with a strong ability to adapt to new technologies, making me a strong candidate for a product management role. My excellent communication and team collaboration skills, along with my dedication to serving organizations, make me an asset to any team.
+
               </p>
               <div className="flex mt-10 items-center gap-7">
                 {info.map((content) => (

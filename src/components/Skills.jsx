@@ -5,26 +5,26 @@ const Skills = () => {
     {
       logo: "logo-html5",
       level: "Advance",
-      count: 86,
+      count: 95,
     },
     {
-      logo: "logo-css3",
-      level: "Expect",
-      count: 90,
+      logo: "logo-javascript",
+      level: "Advance",
+      count: 95,
     },
     {
       logo: "logo-nodejs",
-      level: "Beginner",
-      count: 40,
+      level: "Advance",
+      count: 95,
     },
     {
       logo: "logo-react",
-      level: "Intermediate",
-      count: 80,
+      level: "Advance",
+      count: 95,
     },
   ];
   return (
-    <section id="skills" className="py-10 bg-gray-800 relative">
+    <section id="skills" className="py-10  relative">
       <div className="mt-8 text-gray-100 text-center">
         <h3 className="text-4xl font-semibold">
           My <span className="text-cyan-600">Skills</span>
