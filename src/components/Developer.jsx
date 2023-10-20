@@ -8,7 +8,7 @@ import call from "../assets/icons/call.png";
 
 const Developer = () => {
   return (
-    <div className="bg-gray-800 shadow-lg p-5 rounded-lg md:hidden lg:grid grid grid-cols-12">
+    <div className="bg-gray-800 border shadow-lg p-5 rounded-lg md:hidden lg:grid grid grid-cols-12">
       <div className="col-span-5 border-r">
         <img
           className="w-20 rounded-full h-20 object-contain bg-[#E3E3E3] -mt-14 shadow-lg shadow-primary"

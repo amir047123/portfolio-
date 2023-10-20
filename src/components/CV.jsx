@@ -10,7 +10,7 @@ const CV = () => {
           {/* <!-- top content --> */}
           <div class="flex rounded-t-lg bg-top-color sm:px-2 w-full bg-gray-900 border">
             <div class="h-40 w-40 overflow-hidden sm:rounded-full  border sm:relative sm:p-0 top-10 left-5 p-3">
-              <img className=" pt-3 " src={amirimg} />
+              <img className=" pt-3  " src={amirimg} />
             </div>
 
             <div class="w-2/3 sm:text-center pl-5 mt-10 text-start">
@@ -22,7 +22,7 @@ const CV = () => {
           </div>
 
           {/* <!-- main content --> */}
-          <div class="p-5">
+          <div class="p-5 border">
             <div class="flex flex-col sm:flex-row sm:mt-10">
               <div class="flex flex-col sm:w-1/3">
                 {/* <!-- My contact --> */}
@@ -347,4 +347,4 @@ const CV = () => {
   );
 };
 
-export default CV
+export default CV;
