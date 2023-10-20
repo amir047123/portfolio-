@@ -30,7 +30,7 @@ const Footer = () => {
             <ul class="flex items-center space-x-3 mt-9">
               <li>
                 <a
-                  href="#"
+                  href="https://twitter.com/Amir__Faysal?t=nPNxS8IF2zFW567e__2_Qw&s=09"
                   title=""
                   class="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-success focus:bg-success"
                 >
@@ -47,7 +47,7 @@ const Footer = () => {
 
               <li>
                 <a
-                  href="#"
+                  href="https://www.facebook.com/amirfaysal047/"
                   title=""
                   class="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-success focus:bg-success"
                 >
@@ -64,7 +64,7 @@ const Footer = () => {
 
               <li>
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/amir-faysal/"
                   title=""
                   class="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-success focus:bg-success"
                 >
@@ -83,7 +83,7 @@ const Footer = () => {
 
               <li>
                 <a
-                  href="#"
+                  href="https://github.com/amir047123"
                   title=""
                   class="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-success focus:bg-success"
                 >
@@ -106,7 +106,7 @@ const Footer = () => {
 
           <div>
             <p class="text-sm font-semibold tracking-widest text-white uppercase">
-              Routes
+            Quick Link
             </p>
 
             <ul class="mt-6 space-y-4">
@@ -117,7 +117,7 @@ const Footer = () => {
                   class="flex text-base text-white transition-all duration-200 hover:text-success focus:text-success"
                 >
                   {" "}
-                  Notice
+                 About
                 </Link>
               </li>
 
@@ -128,7 +128,7 @@ const Footer = () => {
                   class="flex text-base text-white transition-all duration-200 hover:text-success focus:text-success"
                 >
                   {" "}
-                  Home
+                 Skills
                 </Link>
               </li>
 
@@ -139,7 +139,7 @@ const Footer = () => {
                   class="flex text-base text-white transition-all duration-200 hover:text-success focus:text-success"
                 >
                   {" "}
-                  Result
+                 Project
                 </Link>
               </li>
 
@@ -149,7 +149,7 @@ const Footer = () => {
                   title=""
                   class="flex text-base text-white transition-all duration-200 hover:text-success focus:text-success"
                 >
-                  Complain
+                Contact
                 </Link>
               </li>
             </ul>
@@ -161,48 +161,32 @@ const Footer = () => {
             </p>
 
             <ul class="mt-6 space-y-4">
+
+            <li>
+                <Link
+                 to="cv"
+                  title=""
+                  class="flex text-base text-white transition-all duration-200 hover:text-success focus:text-success"
+                >
+                  Resume
+                  {" "}
+                </Link>
+              </li>
               <li>
-                <a
-                  href="#faq"
+                <Link
+               to="faq"
                   title=""
                   class="flex text-base text-white transition-all duration-200 hover:text-success focus:text-success"
                 >
                   {" "}
                   Faq
-                </a>
+                </Link>
               </li>
 
-              <li>
-                <a
-                  href="#contact"
-                  title=""
-                  class="flex text-base text-white transition-all duration-200 hover:text-success focus:text-success"
-                >
-                  Contact
-                </a>
-              </li>
+            
+          
 
-              <li>
-                <a
-                  href="#gallery"
-                  title=""
-                  class="flex text-base text-white transition-all duration-200 hover:text-success focus:text-success"
-                >
-                  {" "}
-                  Gallery
-                </a>
-              </li>
-
-              <li>
-                <a
-                  href="#students"
-                  title=""
-                  class="flex text-base text-white transition-all duration-200 hover:text-success focus:text-success"
-                >
-                  {" "}
-                  Students
-                </a>
-              </li>
+           
             </ul>
           </div>
 

@@ -24,7 +24,7 @@ const LandingPage = () => {
 
       <Skills></Skills>
       <Review></Review>
-
+    
       {/* <Contact></Contact> */}
     </div>
   );

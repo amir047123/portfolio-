@@ -1,16 +1,15 @@
 import React from "react";
-import img1 from "../assets/review/1.png"
-import img2 from "../assets/review/2.png"
-import img3 from "../assets/review/3.png"
-import img4 from "../assets/review/4.png"
-import img5 from "../assets/review/5.png"
-import img6 from "../assets/review/6.png"
-import img7 from "../assets/review/7.png"
-import img8 from "../assets/review/8.png"
-import img9 from "../assets/review/9.png"
-import img10 from "../assets/review/10.png"
-import img11 from "../assets/review/11.png"
-
+import img1 from "../assets/review/1.png";
+import img2 from "../assets/review/2.png";
+import img3 from "../assets/review/3.png";
+import img4 from "../assets/review/4.png";
+import img5 from "../assets/review/5.png";
+import img6 from "../assets/review/6.png";
+import img7 from "../assets/review/7.png";
+import img8 from "../assets/review/8.png";
+import img9 from "../assets/review/9.png";
+import img10 from "../assets/review/10.png";
+import img11 from "../assets/review/11.png";
 
 function Review() {
   return (
@@ -43,21 +42,22 @@ function Review() {
                     <div className="flex items-center space-x-4">
                       <img
                         src={img1}
-
                         className="w-12 h-12 bg-center bg-cover border rounded-full"
                         alt="Kanye West"
                       />
                       <div>
                         <h3 className="text-lg font-semibold text-white">
-                          Kanye West
+                          John Smith
                         </h3>
-                        <p className="text-gray-500 text-md">
-                          Rapper &amp; Entrepreneur
-                        </p>
+                        <p className="text-gray-500 text-md">Entrepreneur</p>
                       </div>
                     </div>
                     <p className="leading-normal text-gray-300 text-md">
-                      Find God.
+                      " Working with Amir Faysal and the MERN stack team was a
+                      game-changer for our company. They delivered a stunning
+                      web application that has transformed the way we do
+                      business. Their expertise and dedication are second to
+                      none. "
                     </p>
                   </div>
                 </a>
@@ -79,15 +79,19 @@ function Review() {
                       />
                       <div>
                         <h3 className="text-lg font-semibold text-white">
-                          Tim Cook
+                          Sarah Johnson
                         </h3>
-                        <p className="text-gray-500 text-md">CEO of Apple</p>
+                        <p className="text-gray-500 text-md">
+                          Marketing Manager
+                        </p>
                       </div>
                     </div>
                     <p className="leading-normal text-gray-300 text-md">
-                      Diam quis enim lobortis scelerisque fermentum dui faucibus
-                      in ornare. Donec pretium vulputate sapien nec sagittis
-                      aliquam malesuada bibendum.
+                      " I couldn't be happier with the web app Amir Faysal and
+                      the team created for us. It's sleek, efficient, and
+                      user-friendly, helping us streamline our marketing
+                      efforts. The communication throughout the project was
+                      excellent."
                     </p>
                   </div>
                 </a>
@@ -111,13 +115,14 @@ function Review() {
                         <h3 className="text-lg font-semibold text-white">
                           Kanye West
                         </h3>
-                        <p className="text-gray-500 text-md">
-                          Rapper &amp; Entrepreneur
-                        </p>
+                        <p className="text-gray-500 text-md">Entrepreneur</p>
                       </div>
                     </div>
                     <p className="leading-normal text-gray-300 text-md">
-                      Find God.
+                      " E-commerce is all about speed and user experience.Amir
+                      Faysal and their team delivered an e-commerce platform
+                      that's not only fast but also beautiful. Our conversion
+                      rates have never been better."
                     </p>
                   </div>
                 </a>
@@ -139,15 +144,18 @@ function Review() {
                       />
                       <div>
                         <h3 className="text-lg font-semibold text-white">
-                          Tim Cook
+                          Mark Williams
                         </h3>
-                        <p className="text-gray-500 text-md">CEO of Apple</p>
+                        <p className="text-gray-500 text-md">
+                          Creative Directo
+                        </p>
                       </div>
                     </div>
                     <p className="leading-normal text-gray-300 text-md">
-                      Diam quis enim lobortis scelerisque fermentum dui faucibus
-                      in ornare. Donec pretium vulputate sapien nec sagittis
-                      aliquam malesuada bibendum.
+                      "As a design-centric company, we have high standards for
+                      aesthetics.Amir Faysal and their MERN stack developers
+                      integrated our designs flawlessly into the website. Their
+                      work is a masterpiece."
                     </p>
                   </div>
                 </a>
@@ -171,14 +179,14 @@ function Review() {
                         <h3 className="text-lg font-semibold text-white">
                           Parag Agrawal
                         </h3>
-                        <p className="text-gray-500 text-md">CEO of Twitter</p>
+                        <p className="text-gray-500 text-md">HR Manager</p>
                       </div>
                     </div>
                     <p className="leading-normal text-gray-300 text-md">
-                      Enim neque volutpat ac tincidunt vitae semper. Mattis
-                      aliquam faucibus purus in massa tempor. Neque vitae tempus
-                      quam pellentesque nec. Turpis cursus in hac habitasse
-                      platea dictumst.
+                      "We needed a custom HR management system, and Amir Faysal
+                      delivered a solution that simplified our operations. Their
+                      dedication to understanding our unique needs made all the
+                      difference."
                     </p>
                   </div>
                 </a>
@@ -200,15 +208,16 @@ function Review() {
                       />
                       <div>
                         <h3 className="text-lg font-semibold text-white">
-                          Tim Cook
+                          Alex Turner
                         </h3>
-                        <p className="text-gray-500 text-md">CEO of Apple</p>
+                        <p className="text-gray-500 text-md">COO</p>
                       </div>
                     </div>
                     <p className="leading-normal text-gray-300 text-md">
-                      Diam quis enim lobortis scelerisque fermentum dui faucibus
-                      in ornare. Donec pretium vulputate sapien nec sagittis
-                      aliquam malesuada bibendum.
+                      "Amir Faysal and their team are not just developers; they
+                      are problem solvers. Their ability to tackle complex
+                      challenges and create innovative solutions sets them
+                      apart. They are a true asset."
                     </p>
                   </div>
                 </a>
@@ -227,16 +236,18 @@ function Review() {
                       />
                       <div>
                         <h3 className="text-lg font-semibold text-white">
-                          Parag Agrawal
+                          Rachel White
                         </h3>
-                        <p className="text-gray-500 text-md">CEO of Twitter</p>
+                        <p className="text-gray-500 text-md">
+                          Marketing Director
+                        </p>
                       </div>
                     </div>
                     <p className="leading-normal text-gray-300 text-md">
-                      Enim neque volutpat ac tincidunt vitae semper. Mattis
-                      aliquam faucibus purus in massa tempor. Neque vitae tempus
-                      quam pellentesque nec. Turpis cursus in hac habitasse
-                      platea dictumst.
+                      "We're a startup with limited resources, and Amir Faysal
+                      was understanding of our budget constraints. They provided
+                      cost-effective solutions without compromising on quality.
+                      We're grateful for their support."
                     </p>
                   </div>
                 </a>
@@ -261,18 +272,16 @@ function Review() {
                       />
                       <div>
                         <h3 className="text-lg font-semibold text-white">
-                          Satya Nadella
+                          Michael Davis
                         </h3>
-                        <p className="text-gray-500 text-md">
-                          CEO of Microsoft
-                        </p>
+                        <p className="text-gray-500 text-md">Founder</p>
                       </div>
                     </div>
                     <p className="leading-normal text-gray-300 text-md">
-                      Tortor dignissim convallis aenean et tortor at. At
-                      ultrices mi tempus imperdiet nulla malesuada. Id cursus
-                      metus aliquam eleifend mi. Quis ipsum suspendisse ultrices
-                      gravida dictum fusce ut.
+                      "The Fitness First app created by Amir Faysal has become a
+                      go-to for fitness enthusiasts. It's responsive, scalable,
+                      and user-friendly. Their attention to the user experience
+                      is evident in every detail."
                     </p>
                   </div>
                 </a>
@@ -294,14 +303,16 @@ function Review() {
                       />
                       <div>
                         <h3 className="text-lg font-semibold text-white">
-                          Dan Schulman
+                          Tom Anderson
                         </h3>
-                        <p className="text-gray-500 text-md">CEO of PayPal</p>
+                        <p className="text-gray-500 text-md">CFO</p>
                       </div>
                     </div>
                     <p className="leading-normal text-gray-300 text-md">
-                      Quam pellentesque nec nam aliquam sem et tortor consequat
-                      id. Enim sit amet venenatis urna cursus.
+                      "Our financial analysis tools were outdated, and Amir
+                      Faysal modernized our systems using the MERN stack. The
+                      resulting web application is not only faster but also more
+                      secure. Their expertise in data handling is impressive."
                     </p>
                   </div>
                 </a>
@@ -326,15 +337,15 @@ function Review() {
                           Satya Nadella
                         </h3>
                         <p className="text-gray-500 text-md">
-                          CEO of Microsoft
+                          Operations Manager
                         </p>
                       </div>
                     </div>
                     <p className="leading-normal text-gray-300 text-md">
-                      Tortor dignissim convallis aenean et tortor at. At
-                      ultrices mi tempus imperdiet nulla malesuada. Id cursus
-                      metus aliquam eleifend mi. Quis ipsum suspendisse ultrices
-                      gravida dictum fusce ut.
+                      "We needed a robust booking platform for our travel
+                      agency, and Amir Faysal delivered a feature-rich system
+                      that's made managing bookings a breeze. It's been a
+                      game-changer for our business."
                     </p>
                   </div>
                 </a>
@@ -356,14 +367,17 @@ function Review() {
                       />
                       <div>
                         <h3 className="text-lg font-semibold text-white">
-                          Dan Schulman
+                          David Robinson
                         </h3>
-                        <p className="text-gray-500 text-md">CEO of PayPal</p>
+                        <p className="text-gray-500 text-md">Manager</p>
                       </div>
                     </div>
                     <p className="leading-normal text-gray-300 text-md">
-                      Quam pellentesque nec nam aliquam sem et tortor consequat
-                      id. Enim sit amet venenatis urna cursus.
+                      "The MERN stack developers led by Amir Faysal exceeded our
+                      expectations. They turned our complex project into a
+                      reality with precision and skill. Their attention to
+                      detail and problem-solving abilities are truly
+                      remarkable."
                     </p>
                   </div>
                 </a>

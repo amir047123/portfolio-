@@ -3,11 +3,11 @@ import aboutImg from "../assets/images/about.png";
 const About = () => {
   const info = [
     { text: "Years experience", count: "04" },
-    { text: "Completed Projects", count: "30" },
+    { text: "Completed Projects", count: "150" },
     { text: "Companies Work", count: "02" },
   ];
   return (
-    <section id="about" className="  text-white">
+    <section id="about" className="  pt-36 pb-10  text-white">
       <div className="text-center ">
         <h3 className="text-4xl font-semibold">
           About <span className="text-cyan-600">Me</span>
