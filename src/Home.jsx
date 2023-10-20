@@ -10,4 +10,9 @@ const Home = () => {
       <Bot></Bot>
       <Navbar></Navbar>
       <Outlet></Outlet>
-      <Footer><
+      <Footer></Footer>
+    </div>
+  );
+};
+
+export default Home;

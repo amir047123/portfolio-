@@ -31,6 +31,7 @@ const App = () => {
       <MissionVision></MissionVision>
       <Contact />
       <Footer /> */}
+      
       <Routes>
       <Route path="/" element={<Home />}>
           <Route index element={<LandingPage />}></Route>

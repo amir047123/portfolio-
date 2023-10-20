@@ -1,12 +1,22 @@
+import { Icon } from "@iconify/react";
 import React from "react";
 
 const Bot = () => {
+  const whatsappNumber = "+8801960064557"; // Updated WhatsApp number
+
+  const handleWhatsAppClick = () => {
+    window.open(`https://wa.me/${whatsappNumber}`, "_blank");
+  };
+
   return (
-    <div className="fixed bottom-5 sm:right-8 right-4 z-[999] cursor-pointer text-white text-4xl bg-cyan-600 w-16 h-16 flex items-center justify-center rounded-full animate-bounce">
-  <a href="https://m.me/amirfaysal047" target="_blank" rel="noopener noreferrer">
-    <ion-icon name="chatbubble-ellipses"></ion-icon>
-  </a>
-</div>
+    <div>
+      <div
+        className="fixed bottom-5 sm:right-8 right-4 z-50 cursor-pointer text-white text-4xl bg-green-500 w-16 h-16 flex items-center justify-center rounded-full animate-bounce"
+        onClick={handleWhatsAppClick}
+      >
+      <Icon icon="logos:whatsapp-icon" ></Icon>
+      </div>
+    </div>
   );
 };
 

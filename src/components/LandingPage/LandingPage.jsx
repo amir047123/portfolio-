@@ -11,6 +11,7 @@ import Skills from "../Skills";
 import Services from "../Services";
 import SliderComponent from "../SliderComponent";
 import Experience from "../Experience";
+import Review from "../Review";
 
 const LandingPage = () => {
   return (
@@ -18,12 +19,12 @@ const LandingPage = () => {
       <Hero></Hero>
       <Services></Services>
       <Hireme></Hireme>
-      
+
       <Experience></Experience>
-      <About></About>
-     
+
       <Skills></Skills>
-     
+      <Review></Review>
+
       {/* <Contact></Contact> */}
     </div>
   );
