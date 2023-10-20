@@ -112,7 +112,7 @@ const Footer = () => {
             <ul class="mt-6 space-y-4">
               <li>
                 <Link
-                  to="/notice"
+                  to="about"
                   title=""
                   class="flex text-base text-white transition-all duration-200 hover:text-success focus:text-success"
                 >
@@ -123,7 +123,7 @@ const Footer = () => {
 
               <li>
                 <Link
-                  to="/home"
+                  to="Skills"
                   title=""
                   class="flex text-base text-white transition-all duration-200 hover:text-success focus:text-success"
                 >
@@ -134,7 +134,7 @@ const Footer = () => {
 
               <li>
                 <Link
-                  to="/result"
+                  to="project"
                   title=""
                   class="flex text-base text-white transition-all duration-200 hover:text-success focus:text-success"
                 >
@@ -145,7 +145,7 @@ const Footer = () => {
 
               <li>
                 <Link
-                  to="/complain"
+                  to="contact"
                   title=""
                   class="flex text-base text-white transition-all duration-200 hover:text-success focus:text-success"
                 >

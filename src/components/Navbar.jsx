@@ -7,8 +7,7 @@ const Navbar = () => {
   const menuLinks = [
     { name: "HOME", link: "/" },
     { name: "ABOUT", link: "about" },
-    { name: "SKILLS", link: "#skills" },
-    { name: "PROJECTS", link: "project" },
+    { name: "SKILLS", link: "Skills" },
     { name: "PROJECTS", link: "project" },
     { name: "CONTACT", link: "contact" },
   ];
@@ -26,9 +25,11 @@ const Navbar = () => {
     >
       <div className="flex items-center justify-between">
         <div className="mx-7">
-          <h4 className="text-4xl uppercase font-bold">
+        <Link to="/">
+        <h4 className="text-4xl uppercase font-bold">
             Amir<span className="text-cyan-600">Fay</span>sal
           </h4>
+        </Link>
         </div>
         <div
           className={` ${

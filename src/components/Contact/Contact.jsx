@@ -5,9 +5,8 @@ const Contact = () => {
     <div className=" min-h-screen lg:pt-36   pt-16">
         <div className="text-center">
         <h3 className="text-4xl font-semibold">
-          My <span className="text-cyan-600">Projects</span>
+          Get <span className="text-cyan-600">Contact</span>
         </h3>
-        <p className="text-gray-400 mt-3 text-lg">My awesome works</p>
       </div>
       <br />
       <section className="py-6  dark:text-gray-50">

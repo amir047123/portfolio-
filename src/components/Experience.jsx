@@ -3,6 +3,11 @@ import amirfaysal from "../assets/Experince/experience -amir-faysal.png";
 import { Icon } from "@iconify/react";
 
 const Experience = () => {
+  const handleCallNow = () => {
+    // Use the tel link to specify the phone number
+    const phoneNumber = "+8801875071998";
+    window.location.href = `tel:${phoneNumber}`;
+  };
   return (
     <div className="min-h-screen flex flex-col p-8 sm:p-16 md:p-24 justify-center  ">
       {/* Themes: blue, purple and teal */}
@@ -53,8 +58,9 @@ const Experience = () => {
                 <div className="bg-[#0891B2] flex text-white    p-1 rounded-md  justify-center items-center">
                   <Icon icon="ph:phone-call-light"></Icon>
                   <a
-                    className="  button  transition duration-150 ease-in-out ... text-white  p-2"
-                    href="https://inviqa.com/cxcon-experience-transformation"
+                    className="button transition duration-150 ease-in-out ... text-white p-2"
+                    href="tel:+8801875071998"
+                    onClick={handleCallNow} // Call the function on button click
                   >
                     Call Now
                   </a>
